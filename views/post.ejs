@@ -1,0 +1,13 @@
+<%- include("partials/header") %>
+
+<h1><%= post.title %></h1>
+<p><%= post.content %></p>
+
+<div class="mt-4">
+  <a href="/edit/<%= post.title.toLowerCase().split(' ').join('-') %>" class="btn btn-warning">Edit</a>
+  <form action="/delete/<%= post.title.toLowerCase().split(' ').join('-') %>" method="POST" class="d-inline">
+    <button type="submit" class="btn btn-danger">Delete</button>
+  </form>
+</div>
+
+<%- include("partials/footer") %>
