@@ -28,7 +28,7 @@ Posts are stored temporarily in memory (no database).
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/jwu7-bot/blog.git
+   git clone https://github.com/jwu7-bot/simple-blog.git
    cd blog
    ```
 2. **Install dependencies**
